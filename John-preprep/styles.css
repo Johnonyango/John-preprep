@@ -1,0 +1,207 @@
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547__340.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-color:white;
+  
+  
+  /*display:flex;*/
+}
+h1{
+  top:10px;
+}
+h2 {
+  color:darkred;
+  font-family:'Permanent Marker', cursive;;
+}
+h2:hover {
+  color:blue;
+  background:orange;
+  /*background-size:2px 2px;*/
+  background-size:30px;
+
+}
+nav {
+  display:row;
+  text-align:left;
+  position:absolute;
+
+}
+.container {
+  /*color:white;*/
+}
+.main {
+  /*display:flex;*/
+  /*flex-direction:row;*/
+}
+nav>li>a {
+  padding-left:80px;
+  /*text-decoration:none;*/
+  /*flex-direction:row;*/
+  margin:right;
+  /*text-decoration:none;*/
+}
+nav li{
+  text-align:right;
+  display:inline-block;
+  /*background-color:pink;*/
+  /*text-decoration:none;*/
+}
+ul li a{
+    text-decoration:none;
+    padding:20px;
+    font-size:20px;
+    /*margin-top:30px;*/
+    /*background:pink;*/
+    padding-top:20px;
+}
+
+nav{
+  /*background:pink;*/
+  position:absolute;
+  top:5%;
+  right:5%;
+  padding:3%;
+  float:right;
+  height:40px;
+}
+#about {
+  /*color:white;*/
+  box-sizing: content-box;  
+  width: 1000px;
+  height: 300px;
+  padding: 30px;  
+  /*border: 10px solid blue;*/
+  font-style:italic;
+  display:flex;
+  /*flex-direction:row;*/
+}
+#services {
+  /*color:aqua;*/
+  box-sizing: content-box;  
+  width: 1000px;
+  height: 300px;
+  padding: 30px;  
+  /*border: 10px solid pink ;*/
+  /*display:flex;*/
+  /*flex-direction:row;*/
+}
+.kebs {
+  /*color:pink;*/
+  box-sizing: content-box;  
+  width:900px;
+  height: 300px;
+  padding: 30px;  
+  /*border: 10px solid blue;*/
+  display:flex;
+  flex-direction:row;
+}
+.marketing {
+  /*color:red;*/
+  box-sizing: content-box;  
+  width: 900px;
+  height: 300px;
+  padding: 30px;
+  display:flex;
+  flex-direction:row;
+  /*border: 10px solid pink;*/
+}
+.bizclubs {
+  /*color:pink;*/
+  box-sizing: content-box;  
+  width: 900px;
+  height: 300px;
+  padding: 30px; 
+  display:flex;
+  flex-direction:row;
+  /*border: 10px solid blue;*/
+}
+.branding {
+  color:aqua;
+  box-sizing: content-box;  
+  width: 900px;
+  height: 300px;
+  padding: 30px;  
+  /*border: 10px solid pink;*/
+  display:flex;
+  flex-direction:row;
+}
+.digimarketing {
+  /*color:aqua;*/
+  box-sizing: content-box;  
+  width: 900px;
+  height: 300px;
+  padding: 30px;  
+  /*border: 10px solid pink;*/
+  display:flex;
+  flex-direction:row;
+}
+.news {
+  /*color:pink;*/
+  box-sizing: content-box;  
+  width: 900px;
+  height: 300px;
+  padding: 30px;  
+  /*border: 10px solid blue;*/
+  display:flex;
+  flex-direction:row;
+}
+#contacts {
+  color:white;
+  box-sizing: content-box;  
+  width: 900px;
+  height: 300px;
+  padding: 30px;  
+  /*border: 10px solid pink;*/
+  display:flex;
+  flex-direction:row;
+}
+h1:hover { color: blue; 
+          background: orange;
+          background-size:30px;
+}
+/*#about:hover {color:white;*/
+              /*background:blue;}*/
+    nav >ul{
+      text-align:right;
+      padding-top:2px;
+    }          
+nav ul li a:hover {
+              color:white;
+              background:black;
+              
+              /*margin-left:750px;*/
+}
+.container {
+  font-family:audio-wave;
+}
+p {
+  color:white;
+}
+
+.header{
+  position:absolute;
+  top:10px;
+  left:20px;
+  font-family: 'Pacifico', cursive;
+  text-align:center;
+  font-size:30px;
+  color:Darkred;
+}
+#image {
+  position:center;
+}
+#newslinks > li > a {
+  color:yellow;
+}
+#trendlinks > li > a {
+  color:yellow; 
+}
+#socialmedia {
+/*float:right;*/
+display:flex;
+flex-direction:row;
+position:top-right;
+padding-top:50px;
+padding-left:120px;
+}
